@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://renan0rocha.github.io/gestao-saude-fisica/",
+  "homepage": "https://renan0rocha.github.io/gestao-saude-fisica",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
