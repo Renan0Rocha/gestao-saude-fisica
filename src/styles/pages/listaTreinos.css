@@ -1,0 +1,167 @@
+.lista-treinos-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(to right, #1a1a1a, #222222);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+  }
+  
+  .lista-treinos-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+  }
+  
+  .lista-treinos-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .treino-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    border-radius: 8px;
+    margin: 8px 0;
+    transition: 0.3s;
+  }
+  
+  .treino-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .timer {
+    font-size: 0.9rem;
+    color: #ffcc00;
+    font-weight: bold;
+  }
+  
+  /* Toggle Switch */
+  .toggle-switch {
+    position: relative;
+    width: 42px;
+    height: 22px;
+  }
+  
+  .toggle-switch input {
+    display: none;
+  }
+  
+  .toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #888;
+    transition: 0.4s;
+    border-radius: 34px;
+  }
+  
+  .toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+  
+  /* Quando marcado */
+  .toggle-switch input:checked + .toggle-slider {
+    background-color: #4caf50;
+  }
+  
+  .toggle-switch input:checked + .toggle-slider:before {
+    transform: translateX(18px);
+  }
+  
+  .concluido {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 15px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .descanso {
+    font-size: 14px;
+    color: #ffcc00;
+    font-weight: bold;
+    margin-top: 5px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-5px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .lista-treinos-container {
+    max-width: 600px;
+    margin: 100px auto 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+  }
+  
+  .voltar-btn {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .voltar-btn:hover {
+    background-color: #1e4bb5;
+  }
+  
+  .concluido {
+    background: #4caf50;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  
+  
+  

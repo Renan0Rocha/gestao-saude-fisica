@@ -1,0 +1,32 @@
+/* Divider entre seções */
+.divider {
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(to right, #444, #bbb, #444);
+    margin: 40px auto;
+    border-radius: 2px;
+  }
+  
+  /* Nova seção motivacional */
+  .saude-bem-estar {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    color: #ddd;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .saude-bem-estar h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #f8f8f8;
+  }
+  
+  .saude-bem-estar p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ccc;
+    margin-bottom: 10px;
+  }
+  
