@@ -6,11 +6,11 @@ const SecaoTreinos = () => {
   const navigate = useNavigate();
 
   const treinos = [
-    { nome: "Treinos para academia", img: "/academia.jpg", path: "/treino/academia" },
-    { nome: "Treinos para casa", img: "/casa.jpg", path: "/treino/casa" },
-    { nome: "Treinos ao ar livre", img: "/ar_livre.jpg", path: "/treino/ar-livre" },
+    { nome: "Treinos para academia", img: `${import.meta.env.BASE_URL}images/academia.jpg`, path: "/treino/academia" },
+    { nome: "Treinos para casa", img: `${import.meta.env.BASE_URL}images/casa.jpg`, path: "/treino/casa" },
+    { nome: "Treinos ao ar livre", img: `${import.meta.env.BASE_URL}images/ar_livre.jpg`, path: "/treino/ar-livre" },
   ];
-
+  
   return (
     <div className="treinos-container">
       <h2 className="treinos-title">Treinos</h2>

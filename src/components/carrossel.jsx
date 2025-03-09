@@ -6,10 +6,12 @@ import "../styles/components/carrossel.css";
 
 const Carrossel = () => {
   const imagens = [
-    { nome: "Corrida", img: "/corrida.jpg" },
-    { nome: "Treino Funcional", img: "/funcional.jpg" },
-    { nome: "Treino de Força", img: "/forca.jpg" },
+    { nome: "Corrida", img: `${import.meta.env.BASE_URL}images/corrida.jpg` },
+    { nome: "Treino Funcional", img: `${import.meta.env.BASE_URL}images/funcional.jpg` },
+    { nome: "Treino de Força", img: `${import.meta.env.BASE_URL}images/forca.jpg` },
   ];
+  
+  
 
   return (
     <div className="carrossel-container">
