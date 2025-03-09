@@ -3,5 +3,5 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/gestao-saude-fisica/", // Importante para o GitHub Pages
+  base: "/gestao-saude-fisica/", 
 });
